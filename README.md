@@ -14,6 +14,7 @@ You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
 $ pip install git+https://github.com/hhamud/ape-safe
+$ ape plugins install etherscan alchemy
 ```
 
 ### via `setuptools`
@@ -32,7 +33,7 @@ To use the plugin, first use the CLI extension to add a safe you created:
 
 ```bash
 # Add the safe located at "my-safe.eth" ENS on the ethereum mainnet network
-$ ape safe add --network ethereum:mainnet "my-safe.eth" my-safe
+$ ape safe add --network ethereum:mainnet:alchemy "my-safe.eth" my-safe
 Safe Found
     network: ethereum:mainnet
     address: 0x1234....AbCd
