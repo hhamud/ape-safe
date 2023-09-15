@@ -8,20 +8,12 @@ Account plugin for the [Safe](https://safe.global//) Multisig wallet (previously
 
 ## Installation
 
-### via `ape`
-
-You can install using the [ape](https://github.com/ApeWorX/ape) built-in plugin manager:
-
-```bash
-$ ape plugins install safe
-```
-
 ### via `pip`
 
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-$ pip install ape-safe
+$ pip install git+https://github.com/hhamud/ape-safe
 ```
 
 ### via `setuptools`
